@@ -78,12 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ResumeIQ — AI Resume Analyzer" },
+      { title: "CVision — AI Resume Analyzer" },
       {
         name: "description",
         content: "AI resume analysis with ATS scoring, skill gaps and job-description matching.",
       },
-      { property: "og:title", content: "ResumeIQ — AI Resume Analyzer" },
+      { property: "og:title", content: "CVision — AI Resume Analyzer" },
       {
         property: "og:description",
         content: "AI resume analysis with ATS scoring, skill gaps and job-description matching.",

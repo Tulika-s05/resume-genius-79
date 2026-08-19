@@ -12,12 +12,12 @@ import { api } from "@/lib/api";
 export const Route = createFileRoute("/history/$id")({
   head: () => ({
     meta: [
-      { title: "Saved Analysis — ResumeIQ" },
+      { title: "Saved Analysis — CVision" },
       {
         name: "description",
-        content: "View a saved ResumeIQ resume analysis with scores, skills and improvements.",
+        content: "View a saved Cvision resume analysis with scores, skills and improvements.",
       },
-      { property: "og:title", content: "Saved Analysis — ResumeIQ" },
+      { property: "og:title", content: "Saved Analysis — CVision" },
       { property: "og:description", content: "A previously saved AI resume analysis." },
     ],
   }),

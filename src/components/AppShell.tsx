@@ -24,7 +24,7 @@ export function AppShell({
           <span className="bg-brand flex size-9 items-center justify-center rounded-xl shadow-glow">
             <Sparkles className="size-5 text-primary-foreground" />
           </span>
-          <span className="text-lg font-semibold tracking-tight">ResumeIQ</span>
+          <span className="text-lg font-semibold tracking-tight">CVision</span>
         </Link>
         <nav className="flex flex-col gap-1">
           {nav.map(({ to, label, icon: Icon }) => (

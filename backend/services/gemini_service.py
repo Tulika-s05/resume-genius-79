@@ -11,7 +11,7 @@ from pydantic import ValidationError
 
 from schemas import AnalysisResult, JobMatchResult
 
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 ANALYSIS_SCHEMA = """{
   "overall_score": 0-100,

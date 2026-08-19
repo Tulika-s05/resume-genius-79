@@ -1,4 +1,4 @@
-"""ResumeIQ FastAPI application entrypoint."""
+"""CVision FastAPI application entrypoint."""
 
 import os
 
@@ -11,7 +11,7 @@ load_dotenv()
 from database import init_db  # noqa: E402
 from routes import analysis, resume  # noqa: E402
 
-app = FastAPI(title="ResumeIQ API", version="1.0.0")
+app = FastAPI(title="CVision API", version="1.0.0")
 
 origins = os.getenv(
     "CORS_ORIGINS",

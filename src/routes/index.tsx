@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ResumeIQ — AI Resume Analyzer & ATS Score Checker" },
+      { title: "CVision — AI Resume Analyzer & ATS Score Checker" },
       {
         name: "description",
         content:
           "Upload your resume and get an instant AI-powered ATS score, skill gaps, strengths and actionable improvements for your target role.",
       },
-      { property: "og:title", content: "ResumeIQ — AI Resume Analyzer" },
+      { property: "og:title", content: "CVision — AI Resume Analyzer" },
       {
         property: "og:description",
         content:
@@ -51,7 +51,7 @@ function Landing() {
           <span className="bg-brand flex size-9 items-center justify-center rounded-xl shadow-glow">
             <Sparkles className="size-5 text-primary-foreground" />
           </span>
-          <span className="text-lg font-semibold tracking-tight">ResumeIQ</span>
+          <span className="text-lg font-semibold tracking-tight">CVision</span>
         </div>
         <Link to="/history" className="text-sm text-muted-foreground hover:text-foreground">
           History
@@ -66,7 +66,7 @@ function Landing() {
           Analyze your resume. <span className="text-brand">Improve your chances.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-base text-muted-foreground">
-          ResumeIQ scores your resume for ATS compatibility, keywords and skills, then tells you
+          CVision scores your resume for ATS compatibility, keywords and skills, then tells you
           exactly what to fix before you apply.
         </p>
         <div className="mt-8 flex justify-center">

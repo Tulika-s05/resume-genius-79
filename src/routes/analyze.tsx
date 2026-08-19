@@ -15,12 +15,12 @@ import type { AnalysisResponse } from "@/lib/types";
 export const Route = createFileRoute("/analyze")({
   head: () => ({
     meta: [
-      { title: "Analyze Resume — ResumeIQ" },
+      { title: "Analyze Resume — CVision" },
       {
         name: "description",
         content: "Upload a PDF or DOCX resume and get an AI analysis with ATS and skill scores.",
       },
-      { property: "og:title", content: "Analyze Resume — ResumeIQ" },
+      { property: "og:title", content: "Analyze Resume — CVision" },
       {
         property: "og:description",
         content: "Upload a resume and get an instant AI-powered ATS analysis.",

@@ -1,4 +1,4 @@
-# ResumeIQ — AI Resume Analyzer
+# CVision — AI Resume Analyzer
 
 Upload a PDF/DOCX resume, get an AI-generated ATS-style analysis (scores, skills, strengths,
 improvements), compare it against a job description, and keep a history of past analyses.

@@ -11,12 +11,12 @@ import { api, scoreLabel } from "@/lib/api";
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard — ResumeIQ" },
+      { title: "Dashboard — CVision" },
       {
         name: "description",
-        content: "Your ResumeIQ overview: analyses run, average score and recent resume reviews.",
+        content: "Your CVision overview: analyses run, average score and recent resume reviews.",
       },
-      { property: "og:title", content: "Dashboard — ResumeIQ" },
+      { property: "og:title", content: "Dashboard — CVision" },
       { property: "og:description", content: "Overview of your resume analyses and scores." },
     ],
   }),
